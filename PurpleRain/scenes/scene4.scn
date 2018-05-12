@@ -1,0 +1,5 @@
+IMAGE 4
+
+NARRATIVE "You place your hand on the sand to feel if this is real, or some kind of dream. It has a soft silk touch to it."
+
+LINK up 0 0 1280 255 ./scenes/scene1.scn

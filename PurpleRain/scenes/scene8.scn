@@ -1,0 +1,5 @@
+IMAGE 8
+
+NARRATIVE "I wish I could do that when I was their age. Now I need stimulants even for a damn shower..."
+
+LINK back 160 564 959 154 ./scenes/scene2.scn

@@ -1,0 +1,7 @@
+IMAGE 1
+
+NARRATIVE "You wake up on a beach. You don't know where you've been or what's going on."
+
+LINK forward 0 0 424 246 ./scenes/scene2.scn
+LINK down 0 456 590 264 ./scenes/scene4.scn
+LINK right 896 194 382 525 ./scenes/scene5.scn

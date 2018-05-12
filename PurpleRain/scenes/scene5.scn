@@ -1,0 +1,7 @@
+IMAGE 5
+
+NARRATIVE "Damn this is beautiful. Sublime. The atmosphere emits a purple aura, hedonizing to the senses. I think I can see some silhouettes in the water."
+
+LINK back 0 483 695 234 ./scenes/scene1.scn
+LINK forward 0 0 823 255 ./scenes/scene6.scn
+LINK right 1023 219 255 422 ./scenes/scene7.scn

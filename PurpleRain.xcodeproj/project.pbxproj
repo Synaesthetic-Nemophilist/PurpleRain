@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E885E27B20A3A88F0060FB85 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E885E27A20A3A88F0060FB85 /* main.cpp */; };
+		E885E28320A3A9560060FB85 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E885E28220A3A9560060FB85 /* SDL2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E885E28720A3AAD40060FB85 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E885E28420A3AAD40060FB85 /* SDL2_mixer.framework */; };
+		E885E28820A3AAD40060FB85 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E885E28520A3AAD40060FB85 /* SDL2_ttf.framework */; };
+		E885E28920A3AAD40060FB85 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E885E28620A3AAD40060FB85 /* SDL2_image.framework */; };
+		E88AAC6920A4ECFF00640FAA /* img in Resources */ = {isa = PBXBuildFile; fileRef = E885E28C20A3ABEE0060FB85 /* img */; };
+		E88AAC6A20A4ED5300640FAA /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = E885E28F20A3ABEE0060FB85 /* fonts */; };
+		E88AAC6B20A4ED5900640FAA /* audio in Resources */ = {isa = PBXBuildFile; fileRef = E885E28E20A3ABEE0060FB85 /* audio */; };
+		E88AAC6C20A4ED5E00640FAA /* scenes in Resources */ = {isa = PBXBuildFile; fileRef = E885E28B20A3ABEE0060FB85 /* scenes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +31,16 @@
 
 /* Begin PBXFileReference section */
 		E885E27720A3A88F0060FB85 /* PurpleRain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PurpleRain; sourceTree = BUILT_PRODUCTS_DIR; };
-		E885E27A20A3A88F0060FB85 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E885E28220A3A9560060FB85 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		E885E28420A3AAD40060FB85 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		E885E28520A3AAD40060FB85 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		E885E28620A3AAD40060FB85 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		E885E28A20A3ABED0060FB85 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E885E28B20A3ABEE0060FB85 /* scenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scenes; sourceTree = "<group>"; };
+		E885E28C20A3ABEE0060FB85 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		E885E28D20A3ABEE0060FB85 /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
+		E885E28E20A3ABEE0060FB85 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		E885E28F20A3ABEE0060FB85 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E885E28720A3AAD40060FB85 /* SDL2_mixer.framework in Frameworks */,
+				E885E28820A3AAD40060FB85 /* SDL2_ttf.framework in Frameworks */,
+				E885E28920A3AAD40060FB85 /* SDL2_image.framework in Frameworks */,
+				E885E28320A3A9560060FB85 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +63,7 @@
 			children = (
 				E885E27920A3A88F0060FB85 /* PurpleRain */,
 				E885E27820A3A88F0060FB85 /* Products */,
+				E885E28120A3A9560060FB85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +78,38 @@
 		E885E27920A3A88F0060FB85 /* PurpleRain */ = {
 			isa = PBXGroup;
 			children = (
-				E885E27A20A3A88F0060FB85 /* main.cpp */,
+				E885E28E20A3ABEE0060FB85 /* audio */,
+				E885E28F20A3ABEE0060FB85 /* fonts */,
+				E885E28C20A3ABEE0060FB85 /* img */,
+				E885E28A20A3ABED0060FB85 /* README.md */,
+				E885E28B20A3ABEE0060FB85 /* scenes */,
+				E885E28D20A3ABEE0060FB85 /* source */,
 			);
 			path = PurpleRain;
 			sourceTree = "<group>";
 		};
+		E885E28120A3A9560060FB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E885E28620A3AAD40060FB85 /* SDL2_image.framework */,
+				E885E28420A3AAD40060FB85 /* SDL2_mixer.framework */,
+				E885E28520A3AAD40060FB85 /* SDL2_ttf.framework */,
+				E885E28220A3A9560060FB85 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E88AAC2A20A4E93100640FAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E885E27620A3A88F0060FB85 /* PurpleRain */ = {
@@ -72,6 +119,8 @@
 				E885E27320A3A88F0060FB85 /* Sources */,
 				E885E27420A3A88F0060FB85 /* Frameworks */,
 				E885E27520A3A88F0060FB85 /* CopyFiles */,
+				E88AAC2A20A4E93100640FAA /* Headers */,
+				E88AAC3920A4EBBF00640FAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,12 +162,25 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E88AAC3920A4EBBF00640FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88AAC6C20A4ED5E00640FAA /* scenes in Resources */,
+				E88AAC6B20A4ED5900640FAA /* audio in Resources */,
+				E88AAC6A20A4ED5300640FAA /* fonts in Resources */,
+				E88AAC6920A4ECFF00640FAA /* img in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E885E27320A3A88F0060FB85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E885E27B20A3A88F0060FB85 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +301,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y54WKK7Y9W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +314,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y54WKK7Y9W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

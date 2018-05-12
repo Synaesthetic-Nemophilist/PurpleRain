@@ -1,0 +1,7 @@
+IMAGE 2
+
+NARRATIVE "As you move on you sense a calming summer breeze and hear the voices of children laughter in the distance."
+
+LINK forward 0 0 319 281 ./scenes/scene3.scn
+LINK back 0 495 1280 233 ./scenes/scene1.scn
+LINK right 845 0 438 320 ./scenes/scene8.scn

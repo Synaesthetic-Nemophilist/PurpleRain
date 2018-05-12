@@ -1,0 +1,5 @@
+IMAGE 3
+
+NARRATIVE "It's definitely really peaceful here. I wish I didn't have anxiety, at least I could enjoy all this then."
+
+LINK right 894 377 226 343 ./scenes/scene2.scn
